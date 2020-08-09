@@ -34,4 +34,4 @@ jobs:
     
     #  Deloy App to Surge
     - name: Deploying Project to Surge
-      run: Surge ./ adilaltaf_jprojects.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: Surge ./ shoukatali_jprojects.surge.sh --token ${{secrets.SURGE_TOKEN}}
